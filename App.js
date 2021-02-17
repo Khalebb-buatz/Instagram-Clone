@@ -1,12 +1,11 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import HomeTabsRoute from './Routes/HomeTabsRoute';
 
 export default function App() {
   return (
-    <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
-      <Text>Open up App.js to start working on your App!
-      </Text>
-      
+    <View style={{flex:1}}>
+      <HomeTabsRoute/>
     </View>
   );
 }
